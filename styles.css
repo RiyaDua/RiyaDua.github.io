@@ -91,7 +91,8 @@ order: 2;
 }
 
 .project-box-content {
-  flex: 1;
+  #flex: 1;
+  flex: 1 1 60%; /* Take up 60% of the width */
   margin-right: 1rem; /* Space between content and image */
   order: 1; /* Place the content on the left */
 }

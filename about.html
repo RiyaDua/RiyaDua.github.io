@@ -3,63 +3,316 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
+  <title>Riya Dua - Website</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&display=swap" rel="stylesheet">
 
 </head>
+<nav id="navbar">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#digital-footprint">Digital Footprints</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
 <body>
-    <header>
-        <h1>About Me</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Publications</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        
-            <h2>My Story</h2>
-<section class="about-me about-me-left">
-      <div class="about-me-content">
-
-            <p>Hello! I'm Riya Dua, a bioinformatics enthusiast currently pursuing my Master's in Bioinformatics at Johns Hopkins University. Originally from New Delhi, India, I bring a rich cultural background to my academic journey.</p><img src="images/me.png" alt="Slide 1"></div></section>
-
-<section class="about-me about-me-right">
-<div class"about-me-content">
-<p>Apart from my academic pursuits, I have a deep passion for art and creativity. I find solace in creating intricate mandalas, where each pattern tells a story of balance and harmony. Each mandala I craft is not just a piece of art but a reflection of my inner world, where patterns symbolize balance and unity. </p><img src="images/mandala1.png" alt="Slide 3">
-<img src="images/mandala2.png" alt="Slide 4"></div></section>
-
-<section class="about-me about-me-left">
-      <div class="about-me-content">
-<p>Photography is another avenue where I express myself, particularly through phone photography, capturing the essence of everyday life and special moments.</p><img src="images/wall.png" alt="Slide 5"></div></section>
-
-<section class="about-me about-me-right">
-<div class"about-me-content">
-<p>Family plays a significant role in my life. I am fortunate to have the unwavering support of my parents and a younger sister who inspire me to strive for excellence in everything I do.</p><img src="images/fam.png" alt="Slide 2"></div> </section>
-
-
-
-
-        <section>
-            <h2>Career Goals</h2>
-            <p>My professional journey is driven by a keen interest in exploring advanced data analysis techniques and harnessing the power of machine learning to advance healthcare and personalized medicine. With a background in bioinformatics and data analysis, I am passionate about leveraging these disciplines to uncover actionable insights from complex biological datasets.</p>
-
-I am particularly enthusiastic about enhancing my proficiency in sophisticated data analysis methodologies, including the integration of genomic, transcriptomic, and proteomic data with machine learning. By employing these techniques, I aim to unravel intricate biological mechanisms underlying diseases and develop novel approaches for diagnosis, treatment, and prevention.</p>
-
-
-Central to my career vision is the impact on healthcare delivery and personalized medicine. I am committed to contributing to transformative advancements in these fields, translating research findings into practical applications that improve patient outcomes globally. I envision playing a role in shaping the future of healthcare by bridging the gap between computational insights and clinical practice.</p>
-
-Continuous learning is fundamental to my professional growth. I am dedicated to staying abreast of emerging technologies and methodologies in bioinformatics and machine learning. Collaborating with multidisciplinary teams is essential to me, as it fosters innovation and enables holistic approaches to solving complex healthcare challenges.</p>
-        </section>
-    </main>
-    <footer>
-        <p>Contact Information | Social Media Links</p>
-    </footer>
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="fade-in">Riya Dua</h1>
+        <p class="typewriter">A passionate Bioinformatician</p>
+      </div>
+      <img src="images/Riya.png" alt="Riya Dua" class="hero-photo">
+    </div>
+  </header>
   
 
+</header>
+  <main>
+    <section id="home" class="home-grid-v2">
+      <div class="home-box">
+      <div class="home-about">
+        <h2>About Me</h2>
+        <p>Hi, I’m Riya, a recent graduate with a Master’s in Bioinformatics from Johns Hopkins University. My journey into this field began during my undergrad in biotechnology, when a course on computational biology first sparked my curiosity. That interest quickly turned into passion during my first project on cervical cancer, where I identified hub genes critical to disease progression. That research later became my first-author publication in PLoS ONE, and the push I needed to pursue bioinformatics more seriously.</p>
 
+<p>What excites me most about this field is how diverse the data can be, from raw sequences to clinical records, and how many ways there are to extract meaningful biological insight from it. I love exploring different types of datasets and asking, “What can this data tell us that we don’t already know?”</p>
+
+<p>In my work today, I focus on NGS data analysis, machine learning, and clinical bioinformatics. I'm especially drawn to projects in precision medicine, where research has a direct impact on improving patient outcomes. I'm always open to collaborating, learning from others, and contributing to work that bridges data and biology in meaningful ways.</p></div>
+    
+      <div class="home-skills-block">
+        <div class="skill-section">
+          <h3>Skills</h3>
+          <ul>
+            <li><strong>Languages:</strong> Python, R, Bash, MySQL</li>
+            <li><strong>Bioinformatics:</strong> RNA-Seq (Bulk & Single-Cell), ChIP-Seq, ATAC-Seq, WES analysis</li>
+            <li><strong>Visualization:</strong> ggplot2, matplotlib, Cytoscape</li>
+            <li><strong>Machine Learning: </strong>Supervised Learning, Unsupervised Learning</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="skill-section">
+          <h3>Tools</h3>
+          <ul>
+            <li>Environments and automation: Unix/Linux (HPC with SLURM), Git, Conda, Snakemake</li>
+            <li>Upstream Processing: FASTQC, Trimmomatic, Trimgalore, STAR, Bowtie, MACS2</li>
+            <li>Downstream Processing: DESeq2, EdgeR, Limma, Seurat, Diffbind, Signac</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="skill-section">
+          <h3>Domains</h3>
+          <ul>
+            <li>Oncology Informatics, Data Science, Machine Learning, Genomics, Clinical Informatics</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </section>
+    
+
+
+    <section id="projects">
+      <h2>Projects and Publications</h2>
+      
+      <div class="project-grid">
+        
+        <a class="project-card" href="https://github.com/RiyaDua/scRNAseq-NSCLC" target="_blank">
+          <img src="images/scrnaseq.png" alt="scrnaseq">
+          <div class="project-overlay">Single-Cell RNA-seq Analysis of NSCLC Tumor Cells</div>
+        </a>
+        
+        <a class="project-card" href="https://github.com/RiyaDua/Cervical_cancer_ngs_pipeline" target="_blank">
+          <img src="JNU/Cervicalcancer.png" alt="Cervical Cancer">
+          <div class="project-overlay">Hub Genes Identification and Network analysis of Cervical Cancer </div>
+        </a>
+
+        
+    
+        <a class="project-card" href="https://github.com/RiyaDua/Oral_cancer_gene_identification" target="_blank">
+          <img src="JNU/Dissertation.png" alt="Oral Cancer ML">
+          <div class="project-overlay">Oral Cancer Biomarker Discovery using Machine Learning Approaches</div>
+        </a>
+    
+        <a class="project-card" href="https://ieeexplore.ieee.org/abstract/document/10307581" target="_blank">
+          <img src="Amity/ML.png" alt="Preterm Birth">
+          <div class="project-overlay">Preterm Birth Biomarker Prediction using Machine Learning Approaches</div>
+        </a>
+
+        <a class="project-card" href="https://www.sciencedirect.com/science/article/abs/pii/S0732889324001780?via%3Dihub" target="_blank">
+          <img src="Amity/Pre-Term Birth.png" alt="Preterm Birth">
+          <div class="project-overlay">Metagenomic analysis on Bacterial Vaginosis</div>
+        </a>
+
+        <a class="project-card" href="https://github.com/RiyaDua/Colon_cancer_epigenetic_analysis" target="_blank">
+          <img src="images/chip.png" alt="ChIP-Seq Project">
+          <div class="project-overlay">ChIP-Seq in Colon Carcinogenesis</div>
+        </a>
+<!--
+        <a class="project-card" href="#" target="_blank">
+          <img src="images/training.png" alt="training">
+          <div class="project-overlay">Computer-Aided Drug Designing for Protein Involved in Asthma </div>
+        </a>-->
+
+        <!-- Add more project cards here as needed -->
+      </div>
+    
+    </section>
+    
+    <section id="digital-footprint">
+      <h2>Digital Footprint</h2>
+      <div class="project-grid">
+        <!-- GitHub Card -->
+        <a class="project-card" href="https://github.com/RiyaDua" target="_blank">
+          <img src="images/git.png" alt="GitHub Profile">
+          <div class="project-overlay">Explore My GitHub</div>
+        </a>
+    
+        <!-- Medium Card -->
+        <a class="project-card" href="https://medium.com/@riyadua99" target="_blank">
+          <img src="images/medium.png" alt="Medium Articles">
+          <div class="project-overlay">Read My Medium Posts</div>
+        </a>
+
+        <a class="project-card" href="https://scholar.google.com/citations?user=vUmWUrgAAAAJ&hl=en" target="_blank">
+          <img src="images/googlescholar.png" alt="Google scholar">
+          <div class="project-overlay">Checkout My Published Papers</div>
+        </a>
+
+      </div>
+    </section>
+    
+
+<!--
+  <section id="projects">
+
+    <h2>Projects</h2>
+    <div class="project-box">
+<div class="project-box-content">
+
+      <h3>Currently Charting the Epigenetic Dynamics in Colon Carcinogenesis using Chip-Seq Analysis</h3>
+<details>
+<p> Tools Used: </p>
+<p>>Upstream analysis on Linux: FASTQC, Bowtie2, MACS2, Shell, HPC (slurm)</p>
+<p>>Downstream analysis: R (DiffBind), 
+<summary>Read More</summary>
+      <p>Utilizing Chip-Seq data analysis to map the epigenetic changes associated with BRAF V600E mutations in colon cancer. </details></p>
+    </div><img src="images/chip.png" alt="chip"></details></div>
+
+    <div class="project-box">
+  <div class="project-box-content">
+
+
+      <h3>Identification of Oral Cancer Candidate Genes using Machine Learning Approaches</h3>
+<details>
+<p> Tools Used: </p>
+<p>>Upstream analysis on Linux: FASTQC, STAR Alignment, HPC </p>
+<p>>Downstream analysis: R (DESeq2, ggplot2, tidyverse, dplyr, WGCNA, ML-seq), Cytoscape (Network Analysis), Gene Enrichment Analysis</p> 
+<summary>Read More</summary>
+      <p>This project was my Master's (Biotechnology) Thesis project where we aimed to develop a machine learning model that identifies Oral cancer candidate genes. A publically available dataset was taken and rigorous data preparation, data cleaning, and outlier filteration was performed in order to build a highly accurate model. This model was built using MLseq package in R and used DEGs as the features to train the model. These DEGs were obtained using RNA-seq analysis and Network Analysis was performed by Weighted Gene Coexpression Network Analysis where significnat gene modules in oral cancer were identified. Finally, SVM classification, with the deseq-vst transformation-normalization technique performed the best out of all the testing models giving the accuracy of 99%. This project is currently under works to be submitted for publication.</p>
+</div>
+<img src="JNU/Dissertation.png" alt="Dissertation"></details>
+    </div>
+
+    <div class="project-box">
+<div class="project-box-content">
+                <h3>Pre-Term Birth Biomarker Identification for Human Microbiome using Metabolomics and Machine Learning Approaches</h3>
+<details>
+<p> Tools Used: Python (scikit-learn, matplotlib, NumPY, pandas, Pyplot) </p>
+<summary>Read More</summary>                
+<p>In this project, we developed a Machine Learning-Infused Metabolomics Model for Preterm Birth Prediction in Humans. Raw data files were taken from EMBL and meticulous data cleaning and data preparation was performed. The raw data contained 455 samples and more than 300 metabolites out of which 53 metabolites were considered significant in occurance of PTB and thus, they were taken as features for out ML model followed by train-test split. Five algorithms were used in the evaluation of this study for comparative study and to deduce the best algorithm for prediction based on F1 score, AUC value, recall score and accuracy. The models were tested on labelled and unlabelled data. Out of the five models Gradient Boosting and Decision Trees perfromed the best with the accuracy of 97%. And finally, to understand the importance of each feature, a feature importance plot was used. This plot helps in the visualization and quantification of the relative importance of different features in the predictive model.  View the publication <a href="https://ieeexplore.ieee.org/abstract/document/10307581"> here</a></p>
+</div><img src = "Amity/ML.png" alt="Pre-term Birth"></details></div>
+
+
+<div class="project-box">
+<div class="project-box-content">
+                <h3>Omics-based Analysis of Metabolic Genes, Proteins, and Pathways for Antibacterial Target Identification in Bacterial Vaginosis</h3>
+<details>
+<p> Tools Used: Parallel-Meta 3 (Linux), AutoDock, PyMOL, R </p>
+<summary>Read More</summary>
+                <p>Utilized omics data to identify potential antibacterial targets in the context of bacterial vaginosis. 16S rRNA raw vaginal microbiome samples of women stratified by vaginal health condition was taken from a public source. This raw sequencing data underwent taxonomic classification and functional profiling to determine the microbial and functional composition of the vaginal microbiome samples, using the Parallel-Meta 3 software. The genes identified in control and affected samples were compared and genes exclusive to BV were identified which were then chosen for molecular docking. Inhibitors for these proteins were chosen from DrugBank and PubChem. Following which the team performed molecular dynamic simulation and ADMET analysis. This finally revealed Dalfopristin, Clorgyline, and Hydrazine as potential therapeutics for the treatment of bacterial vaginosis. View the publication <a href="https://www.sciencedirect.com/science/article/pii/S0732889324001780#sec0002">here</a></p>
+                
+            </div><img src="Amity/Pre-Term Birth.png" alt="Bacterial Vaginosis"></details></div>
+
+
+            
+
+            <div class="project-box">
+<div class="project-box-content">
+                
+<h3>Identified Hub Genes and Their Crucial Pathways for Survival in Cervical Cancer Patients Utilizing In-Silico Approaches</h3>
+<details>
+<p> Tools Used: R (DESeq2, GEOquery, tidyr, limma, pheatmap, dplyr), Cytoscape for Network Analysis, AutoDock, GROMACS, PyMOL </p>
+<summary>Read More</summary>                
+<p>To identify the hub genes involved in cervical cancer, microarray profiling data was taken from NCBI-GEO database and was preprocessed in away that it can be analysed by DESeq2 package. DEGs were identified using DESeq2 and limma along with volcano plot and heatmap visualizations. Protein-protein interaction was studied further us=tilizing STRING database and cytoscape using which top 10 genes were identified that play a significant role in causing the cervical cancer. For the proteins of these genes, molecular docking was performed with potential phytoconstituents taken from PubChem, using AutoDock which underwent molcular dynamic simulation to investigate stability of protein-ligand complexes.    </p>
+                
+            </div><img src = "JNU/Cervicalcancer.png" alt="cervical cancer hub genes"></details></div>
+
+
+            <div class="project-box">
+<div class="project-box-content">
+                <h3>Computer-Aided Drug Designing against OMRL-1 Like Protein 3 Involved in Asthma</h3>
+<details>
+<p> Tools and Databases Used: NCBI, BLAST, Modeller, DogSite,  AutoDock, GROMACS (Linux), PubChem </p>
+<summary>Read More</summary>                 
+<p>OMRDL3 gene is a key player in Aasthma condition and thus, this was selected and my aim was to design and identify drugs that inhibit the expression of this gene. Protein was selected after litrary search and its 3D structure was selected from PDB. Ran alignment of the protein to get top 10 best matches. Through literature search found drugs that can potentially interact with out selected protein and other aligned proteins. Analyzed 150+ drug SDF files identifying the top 10 candidates for Asthma; executed Docking and Simulation for 10 drug-protein pairs with AutoDock and ran molecular dynamic simulations on GROMACS to test their stability and select the best pair.
+ </p>
+                
+            </div><img src="images/training.png" alt="Asthma protein"></details></div>
+
+<div class="project-box">
+<div class="project-box-content">
+                <h3>Structural and Functional Consequences of Non-Synonymous SNPs in the Human LGALS-1 Gene</h3>
+<details>
+<p> Tools and Databases Used: NCBI, BLAST, i-mutant, predict-snp, i-TASSER, HOPE, GROMACS (Linux) </p>
+<summary>Read More</summary>                 
+<p>Found significant SNPs in LGALS-1 causing mayocardial infraction using sequence based and structure based predictions using online tools. Studied the snps which degrade the proteins, the difference between snps and the actual gene (wild type) on the bases of size, hydrophobicity and charge. Identified 22 significant SNPs, performed conservation analysis, protein modeling in PyMOL and simulated with the changed sequence-snp using protein-in-water GROMACS. </p>
+                
+            </div></details></div>
+  </section>
+<section>-->
+            
+
+
+  </main>
+  <footer id="contact">
+    <div style="display: flex; justify-content: center; gap: 2rem; padding: 2rem 0;">
+      <p>Contact:</p>
+      <a href="mailto:riyadua99@gmail.com" target="_blank" aria-label="Email">
+        <!-- Paste Email SVG here --><svg xmlns="http://www.w3.org/2000/svg" fill=none viewBox="0 0 24 24" stroke=#002B5B width="30" height="30">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 8h18a2 2 0 002-2V6a2 2 0 00-2-2H3a2 2 0 00-2 2v8a2 2 0 002 2z" />
+</svg>
+
+      </a>
+      <a href="https://www.linkedin.com/in/riya-dua-5b72241b1/" target="_blank" aria-label="LinkedIn">
+        <!-- Paste LinkedIn SVG here --><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill=#002B5B>
+  <path d="M4.98 3.5C4.98 4.61 4.09 5.5 2.98 5.5S1 4.61 1 3.5 1.89 1.5 3 1.5 4.98 2.39 4.98 3.5zM1 8.5h4v12H1v-12zM7.5 8.5h3.6v1.71h.05c.5-.95 1.73-1.95 3.56-1.95 3.8 0 4.5 2.5 4.5 5.76v6.48h-4v-5.75c0-1.37-.03-3.13-1.91-3.13-1.91 0-2.2 1.5-2.2 3.03v5.85h-4v-12z"/>
+</svg>
+
+<a href="https://github.com/RiyaDua" target="_blank" aria-label="GitHub">
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="#002B5B">
+    <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5C0 17.64 3.438 22.06 8.207 23.54C8.805 23.64 9.025 23.27 9.025 22.95C9.025 22.66 9.015 21.91 9.01 20.9C5.672 21.59 4.968 19.35 4.968 19.35C4.438 17.97 3.672 17.59 3.672 17.59C2.547 16.83 3.758 16.85 3.758 16.85C4.992 16.94 5.637 18.12 5.637 18.12C6.75 20.06 8.602 19.5 9.25 19.21C9.35 18.46 9.66 17.95 10.01 17.64C7.297 17.34 4.438 16.29 4.438 11.61C4.438 10.29 4.922 9.22 5.742 8.38C5.617 8.08 5.172 6.82 5.867 5.11C5.867 5.11 6.867 4.77 9.002 6.29C9.952 6.02 10.973 5.89 11.998 5.88C13.024 5.89 14.045 6.02 14.996 6.29C17.13 4.77 18.13 5.11 18.13 5.11C18.826 6.82 18.38 8.08 18.256 8.38C19.08 9.22 19.56 10.29 19.56 11.61C19.56 16.3 16.696 17.34 13.978 17.63C14.405 17.99 14.785 18.69 14.785 19.77C14.785 21.32 14.77 22.57 14.77 22.95C14.77 23.27 14.99 23.65 15.597 23.54C20.368 22.06 23.81 17.63 23.81 12.5C23.81 5.87 18.43 0.5 12 0.5Z"/>
+  </svg>
+</a>
+<a href="https://medium.com/@riyadua99" target="_blank" aria-label="Medium">
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 1043.63 592.71" fill="#002B5B">
+    <path d="M588.67,296.36c0,163.7-131.46,296.36-293.34,296.36S2,460.06,2,296.36,133.46,0,295.34,0,588.67,132.66,588.67,296.36ZM775.08,296.36c0,154.08-64.15,279-143.3,279s-143.3-124.92-143.3-279,64.15-279,143.3-279S775.08,142.28,775.08,296.36ZM1041.63,296.36c0,146.48-29.02,265.15-64.82,265.15s-64.82-118.67-64.82-265.15,29.02-265.15,64.82-265.15S1041.63,149.88,1041.63,296.36Z"/>
+  </svg>
+</a>
+
+
+
+      </a>
+      
+    </div>
+    <p style="text-align: center; font-size: 0.9rem;">&copy; Riya Dua - riyadua99@gmail.com</p>
+  </footer>
+  
+  
+  <script>
+    const accordions = document.querySelectorAll(".accordion-toggle");
+  
+    accordions.forEach(btn => {
+      btn.addEventListener("click", function () {
+        const content = this.nextElementSibling;
+  
+        // Close all others
+        document.querySelectorAll(".accordion-content").forEach(otherContent => {
+          if (otherContent !== content) {
+            otherContent.style.maxHeight = null;
+            otherContent.style.paddingTop = "0";
+            otherContent.style.paddingBottom = "0";
+          }
+        });
+  
+        // Toggle this one
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+          content.style.paddingTop = "0";
+          content.style.paddingBottom = "0";
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          content.style.paddingTop = "0.5rem";
+          content.style.paddingBottom = "1rem";
+        }
+      });
+    });
+  </script>
+  <script>
+    window.addEventListener("scroll", function () {
+      const nav = document.querySelector("nav");
+      const scrollY = window.scrollY;
+  
+      if (scrollY > 50) {
+        nav.classList.add("scrolled");
+      } else {
+        nav.classList.remove("scrolled");
+      }
+    });
+  </script>
+  
+  
 </body>
 </html>

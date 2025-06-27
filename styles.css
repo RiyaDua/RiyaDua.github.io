@@ -695,8 +695,8 @@ flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
   }
-    .project-grid {
-    grid-template-columns: 1fr;
+   .project-grid {
+    grid-template-columns: 1fr; /* Show one card per row */
   }
   .hero-text h1 {
     font-size: 2rem;

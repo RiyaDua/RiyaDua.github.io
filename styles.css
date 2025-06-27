@@ -20,7 +20,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  min-width: 100vh;
+  /*min-width: 100vh;*/
+  width:100%;
 }
 
 .hero-content {
@@ -56,8 +57,11 @@ body {
 }
 
 .hero-photo {
-  width: 400px;
-  height: 400px;
+  /*width: 400px;
+  height: 400px;*/
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -179,7 +183,7 @@ section:hover {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);/*repeat(auto-fit, minmax(280px, 1fr));*/
+  /*grid-template-columns: repeat(3, 1fr);/*repeat(auto-fit, minmax(280px, 1fr));*/
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -276,7 +280,9 @@ section:hover {
 display: flex;
   align-items: center;
   background-color: #f9f9f9;
-max-width:1200px;
+/*max-width:1200px;*/
+  width: 100%;
+  max-width: 100%;
 }
 
 .project-box img {
@@ -325,7 +331,10 @@ order: 2;
 }
 
 .about-me img {
-  max-width: 20%; /* Adjust width as needed */
+  /*max-width: 20%; /* Adjust width as needed */
+  width: 100%;
+max-width: 200px;
+height: auto;
   height: auto;
   border-radius: 8px;
 }
@@ -417,7 +426,10 @@ html {
   align-items: start;
   padding: 2rem 1rem;
   border-radius: 16px;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
+  width: 100%;
+padding: 1rem;
+flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -682,6 +694,28 @@ html {
   .project-card {
     flex-direction: column;
     align-items: center;
+  }
+    .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .typewriter {
+    font-size: 1.1rem;
+  }
+
+  .skills-list li {
+    font-size: 0.9rem;
+  }
+  .home-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-right {
+    width: 100%;
   }
 
   footer p {

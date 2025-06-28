@@ -679,7 +679,7 @@ flex-wrap: wrap;
 #topBtn:hover {
   background-color: #555;
 }
-
+/*
 @media screen and (max-width: 600px) {
   .hero-image img {
     width: 100%;
@@ -696,7 +696,7 @@ flex-wrap: wrap;
     align-items: center;
   }
    .project-grid {
-    grid-template-columns: 1fr; /* Show one card per row */
+    grid-template-columns: 1fr; /* Show one card per row 
   }
   .hero-text h1 {
     font-size: 2rem;
@@ -723,4 +723,4 @@ flex-wrap: wrap;
   }
 }
 
-
+*/
